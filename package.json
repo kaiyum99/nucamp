@@ -2,11 +2,11 @@
   "name": "nucampsite",
   "version": "1.0.0",
   "description": "This is a website for the fictional campsites review site NuCamp.",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "start": "npm run lite"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abdul Kaiyum",
   "license": "ISC",
@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
   }
